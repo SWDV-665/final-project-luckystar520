@@ -81,8 +81,8 @@ export class Tab1Page {
     this.dataService.addItem(this.pasteInput);
   }
 
-  async shareItem(item, i) {
-    console.log('Share item - ', item);
+  async shareItem(item) {
+    console.log('Share item - ' + JSON.stringify(item));
     
     let test = ""
     let message = "Paste Item - Name: " + item.content;
@@ -92,7 +92,7 @@ export class Tab1Page {
       console.log("Shared successfully!");
       test = "Can share";
 
-      this.socialSharing.shareViaEmail(message, subject, ['yanlingtest@gmail.com']).then(() => {
+      this.socialSharing.shareViaEmail(message, subject, ['yanlingtest1@gmail.com']).then(() => {
         test = "Shared with email";
       })
       
