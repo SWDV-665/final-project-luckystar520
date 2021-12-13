@@ -1,0 +1,23 @@
+h2 {
+    color: #1945d6;
+    background-color: orange;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: "Robot";
+    font-weight: 1000;
+    font-style: normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+ion-button {
+    --background: orange;
+    color: #1945d6;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+}

@@ -1,0 +1,43 @@
+h2 {
+    color: #1945d6;
+    background-color: orange;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: "Robot";
+    font-weight: 1000;
+    font-style: normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #1945d6;
+    font-size: 28px;
+    line-height: 30px;
+    font-family: "Robot";
+    font-weight: 600;
+    font-style: normal;
+    padding: 20px 20px 0px 20px;
+}
+
+.page_width {
+    width: 1000px;
+    margin: auto;
+}
+
+#textarea {
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+ion-button {
+    --background: orange;
+    color: #1945d6;
+    font-weight: bold;
+    border-radius: 5px;
+    float: right;
+    margin: 10px;
+}

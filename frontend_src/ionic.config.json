@@ -1,0 +1,8 @@
+{
+  "name": "Paste_Board",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
