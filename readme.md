@@ -1,4 +1,10 @@
 The frontend is cordova based web and android application.
+Frontend run instruction:
+```
+cd <frontend_src directory>
+npm install
+ionic serve
+```
 
 The backend is hosts on heroku
 
