@@ -76,21 +76,17 @@ export class HistoriesService {
   }
 
   addItem(pasteContent) {
-    console.log("addItem: " + pasteContent);
+    console.log("test add paste: " + pasteContent);
     var body = {
       "content": pasteContent
-    }
-    this.http.post(this.baseUrl + "/api/paste", body).subscribe(
-      (res) => {
-        console.log("Catch res");
-        console.log(res)
-        this.dataChangeSubject.next(true); 
-      },
-      (err) => {
-        console.log("Catch error");
+    };
+
+    this.http.post(this.baseUrl + "/api/paste", body).subscribe(res => {
+      this.dataChangeSubject.next(true);
+    }, err => {
+      console.log("Catch error");
         console.log(JSON.stringify(err));
-      }
-    );
+    });
   }
 
   editItem(item) {

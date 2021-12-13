@@ -3,7 +3,10 @@ Frontend run instruction:
 ```
 cd <frontend_src directory>
 npm install
+// Run browser mode
 ionic serve
+// Run android app
+ionic cordova run android --verbose
 ```
 
 The backend is hosts on heroku
